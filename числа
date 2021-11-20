@@ -1,0 +1,11 @@
+let n = 10;
+alert("1")
+alert("2")
+for (let i = 3; i <= n; i++) { 
+  z=0
+  for (let j = 2; j < i; j++) { 
+    if (i % j == 0) { z = z + 1
+    }
+  if (z==0){alert(i)}
+    }
+  }

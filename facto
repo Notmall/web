@@ -1,0 +1,10 @@
+number = prompt("введите ваш номер")
+z=1
+l=1
+n=1
+while(z!= number){
+z = z+1
+n = n +1
+l = l*n
+}
+alert(l)

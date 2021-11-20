@@ -1,0 +1,7 @@
+name =prompt("имя")
+strReverse = name.split('').reverse().join('')
+if (strReverse==name){
+alert('является')
+} else{
+alert("нет")
+}

@@ -1,0 +1,19 @@
+a = 0
+let year = prompt("Не огонь, А жжется.")
+if (year == "крапива") {
+	alert("да")
+  a = a+1
+  
+}else {
+	alert("нет")
+}
+let vtoroi = prompt("Красна девица,Сидит в темнице,А коса на улице.")
+if (vtoroi == "морковь"){
+alert("да")
+a= a+1
+alert(a)
+}
+else {
+alert("невер")
+alert(a)
+}
